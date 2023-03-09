@@ -6,9 +6,9 @@
 
 }
 
-.body{
 
-}
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -128,7 +128,7 @@ nav .right{
 }
 
     div .left-side{
-        font-display: felx;
+        font-display: flex;
         align-items: center;
         width: 35%;
         height: 100% ;
@@ -486,7 +486,7 @@ cursor: pointer;
 .icon-post p{
 margin-left: 10px;
 text-transform: capitalize; 
-?
+}
  
 
 
