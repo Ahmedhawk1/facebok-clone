@@ -2,11 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:sans-serif;
+    text-transform: capitalize;
+
 
 }
 
-
+main{
+    background-color: #f5f5f5;
+}
 
 
 nav{
@@ -41,7 +45,7 @@ div .left{
 div .search-bar input{
     width: 220px;
     height: 35px;
-    background: #efefef;
+    background: #fcfcfc;
     border-radius: 30px;
     padding: 0 10px;
     margin-left: 7px;
@@ -76,6 +80,10 @@ div .search-bar input{
 .center i:hover{
     color: #1178f2;
     cursor: pointer;
+}
+
+.fa-house{
+    color: #1178f2;
 }
 
 nav .right{
@@ -119,8 +127,8 @@ nav .right{
     position: fixed;
     width:20%;
     margin-left: 5px;
-    height: 100vh;
-    overflow-y: hidden;
+    height: 95vh;
+    overflow-x: hidden;
 }
 
 .main:hover{
@@ -216,7 +224,7 @@ nav .right{
     margin-top: 55px;
     position: relative;
     position: fixed;
-    height: 100vh;
+    height: 95vh;
     overflow-y: hidden;
     left:77%;
     background: #f5f5f5;
@@ -357,6 +365,8 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
+   
 
     
 
@@ -414,6 +424,7 @@ cursor: pointer;
     justify-content: flex-start;
     margin-left: 360px;
     position: relative;
+    
 
 }
 
@@ -421,7 +432,6 @@ cursor: pointer;
 .post{
     width: 100%;
     height: 170px;
-    background: #fff;
     padding: 10px 15px;
     border-radius: 7px;
     box-shadow: 0 1px 8px rgb(0 0 0 / 20%);
@@ -447,12 +457,13 @@ cursor: pointer;
 .post1 input{
     display: flex;
     position: absolute;
-    width: 70%;
+    width: 75%;
+    height: 50px;
     padding: 10px;
     margin-left: 130px;
     border: 0;
     outline: none;
-    background: #efefef;
+    background: #fcfcfc;
     border-radius: 30px;
     font-size: 20px;
     
@@ -469,7 +480,7 @@ cursor: pointer;
     align-items: center;
     padding: 30px;
     border-top: 2px solid rgb(197, 188, 188);
-    margin-top: 35px;
+    margin-top: 20px;
 
 }
 .icon-post i:hover{
@@ -499,12 +510,12 @@ text-transform: capitalize;
 
 
 .post-two{
-    width: 52%;
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 360px;
-    position: relative;
-
+        width: 52%;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 360px;
+        position: relative;
+  
 }
 
 
@@ -515,6 +526,7 @@ text-transform: capitalize;
     width: 100%;
     padding: 3px;
     padding-left: 20px;
+    border-radius: 10px;
 }
 
 .logo-room{
@@ -540,10 +552,170 @@ text-transform: capitalize;
     
 }
 
+/* end */
 
 .photo-room img{
     width: 50px;
     margin: 10px;
     border: 3px solid #1178f2;
     border-radius: 50%;
+
+}
+
+.post-three{
+    width: 52%;
+    height: 100vh auto;
+    margin-left:  360px;
+    margin-top: 30px;
+    position: relative;
+    padding-top: 30px;
+    box-shadow: 0 1px 8px rgb(0 0 0 / 20%);
+
+}
+.post-three-img{
+    display: flex;
+    justify-content: flex-start;
+    padding-left:10px;
+    align-items:flex-start;
+
+}
+.fa-ellipsis{
+    padding-left:70%;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    }
+
+    .fa-ellipsis:hover{
+        color: #1178f2;
+    }
+
+.post-three-img p{
+    font-size: 22px;
+    font-weight: 550;
+}
+.post-three-img img{
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.text-three{
+    font-size: 14px;
+    display: flex;
+    position: absolute;
+    left: 61px;
+    top: 60px;
+    color: #bebaba;
+}
+
+.the-one img{
+    width: 100%;
+    padding: 10px;
+}
+
+.react{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.react img{
+    width: 25px;
+}
+
+.react p{
+font-size: 15px;
+color: #807b7b;
+padding:15px;
+}
+.react .comments{
+    padding-left: 25%;
+    
+}
+
+
+
+.like {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #807b7b31;
+    border-bottom:  2px solid #807b7b31;
+    cursor: pointer;
+}
+
+.like div{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+ 
+   
+}
+
+
+.like p{
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+.activi{
+    color: #1178f2          ;
+}
+
+.fa-message, .fa-share{
+    font-size: 26px;
+    color: #8b8888;
+}
+
+/* LAST */
+
+.last{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.last img{
+    width: 50px;
+    border-radius: 50%;
+    border: solid 1px #1178f2;
+    margin-left: 15px;
+    margin-bottom: 13px;
+  
+}
+
+.icon-last input {
+    display: flex;
+    width:700px;
+    height: 50px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    background: #efefef;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 0 0 15px 15px;
+    position: relative;
+    align-items: center;
+}
+
+.smile{
+    position: absolute;
+    display: flex;
+    right: 40px;
+    bottom: 30px;
+ 
+}
+
+.smile i{
+    padding-left: 5px;
+    color: #807b7b95;
 }
