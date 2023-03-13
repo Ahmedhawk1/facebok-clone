@@ -117,7 +117,7 @@ nav .right{
   
 }
 
-
+/* end nav */
 
 
 .main{
@@ -213,6 +213,8 @@ nav .right{
 
 
 /******* right side******* */
+
+
 .page h2{
     font-size: 18px;
     color: #919191;
@@ -719,3 +721,6 @@ padding:15px;
     padding-left: 5px;
     color: #807b7b95;
 }
+
+
+
